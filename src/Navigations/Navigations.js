@@ -12,10 +12,10 @@ import { AlertComponent } from "../Components/Alert";
 
 const Navigations = () => {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="d-flex vh-100">
       <Router>
         <SidebarComponent />
-        <div style={{ flex: 1, padding: "10px" }}>
+        <div className = "flex-grow-1" style={{ padding: "10px" }}>
           <Switch>
             <Route path="/accordion" component={AccordionComponent} />
             <Route path="/alert" component={AlertComponent} />

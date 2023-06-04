@@ -10,7 +10,7 @@ export default function SidebarComponent() {
         background: "#f0f0f0",
       }}
     >
-      <ul style={{ listStyleType: "none", padding: 0 }}>
+      <ul style={{ listStyleType: "none", textDecoration: 'none', padding: 0 }}>
         <li>
           <Link to="/">Home</Link>
         </li>
