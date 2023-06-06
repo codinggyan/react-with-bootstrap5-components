@@ -7,18 +7,19 @@ export default function SidebarComponent() {
       style={{
         padding: "10px",
         width: "20%",
-        background: "#f0f0f0",
+        height: '100vh'
       }}
+      className="bg-dark sticky-top"
     >
-      <ul style={{ listStyleType: "none", textDecoration: 'none', padding: 0 }}>
+      <ul style={{ listStyleType: "none", padding: 0 }}>
         <li>
-          <Link to="/">Home</Link>
+          <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/">Home</Link>
         </li>
         <li>
-          <Link to="/accordion">Accordion</Link>
+          <Link className="text-white text-decoration-none d-flex  px-sm-4 px-0 justify-content-start" to="/accordion">Accordion</Link>
         </li>
         <li>
-          <Link to="/alert">Alert</Link>
+          <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/alert">Alert</Link>
         </li>
       </ul>
     </div>

@@ -12,7 +12,7 @@ import { AlertComponent } from "../Components/Alert";
 
 const Navigations = () => {
   return (
-    <div className="d-flex vh-100">
+    <div className="d-flex">
       <Router>
         <SidebarComponent />
         <div className = "flex-grow-1" style={{ padding: "10px" }}>
