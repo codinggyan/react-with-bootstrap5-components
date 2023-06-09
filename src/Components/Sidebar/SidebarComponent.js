@@ -21,6 +21,15 @@ export default function SidebarComponent() {
         <li>
           <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/alert">Alert</Link>
         </li>
+        <li>
+          <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/badge">Badge</Link>
+        </li>
+        <li>
+          <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/breadcrumb">Breadcrumb</Link>
+        </li>
+        <li>
+          <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/button">Button</Link>
+        </li>
       </ul>
     </div>
   );

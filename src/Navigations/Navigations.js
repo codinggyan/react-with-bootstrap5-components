@@ -8,6 +8,8 @@ import { SidebarComponent } from "../Components/Sidebar";
 import { AccordionComponent } from "../Components/Accordion";
 import { BadgeComponent } from "../Components/Badge";
 import { AlertComponent } from "../Components/Alert";
+import { BreadCrumbComponent } from "../Components/Breadcrumb";
+import { ButtonComponent } from "../Components/Buttons";
 
 
 const Navigations = () => {
@@ -20,6 +22,8 @@ const Navigations = () => {
             <Route path="/accordion" component={AccordionComponent} />
             <Route path="/alert" component={AlertComponent} />
             <Route path="/badge" component={BadgeComponent} />
+            <Route path="/breadcrumb" component={BreadCrumbComponent} />
+            <Route path="/button" component={ButtonComponent} />
           </Switch>
         </div>
       </Router>
