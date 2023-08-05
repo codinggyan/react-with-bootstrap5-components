@@ -12,7 +12,10 @@ export default function SidebarComponent() {
       }}
       className="bg-dark sticky-top"
     >
-     <img src={codiggyan_logo} style={{width: '100px', height: '100px', backgroundColor:'#5ce1e6', borderRadius: '50px'}}/>
+        <div style={{borderBottom: '1px solid white', paddingBottom: '10px'}}>
+            <img src={codiggyan_logo} style={{width: '100px', height: '100px', backgroundColor:'#5ce1e6', borderRadius: '50px'}}/>
+        </div>
+     
       <ul style={{ listStyleType: "none", padding: 0 }}>
         <li>
           <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/">Home</Link>
