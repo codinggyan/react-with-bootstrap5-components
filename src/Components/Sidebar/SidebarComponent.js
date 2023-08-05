@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import codiggyan_logo from '../../assets/img/coding_gyan_profile.svg'
 
 export default function SidebarComponent() {
   return (
@@ -11,6 +12,7 @@ export default function SidebarComponent() {
       }}
       className="bg-dark sticky-top"
     >
+     <img src={codiggyan_logo} style={{width: '100px', height: '100px', backgroundColor:'#5ce1e6', borderRadius: '50px'}}/>
       <ul style={{ listStyleType: "none", padding: 0 }}>
         <li>
           <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/">Home</Link>
