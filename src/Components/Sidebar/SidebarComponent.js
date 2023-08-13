@@ -12,28 +12,30 @@ export default function SidebarComponent() {
       }}
       className="bg-dark sticky-top"
     >
-        <div style={{borderBottom: '1px solid white', paddingBottom: '10px'}}>
-            <img src={codiggyan_logo} style={{width: '100px', height: '100px', backgroundColor:'#5ce1e6', borderRadius: '50px'}}/>
+        <div className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <img src={codiggyan_logo} style={{width: '80px', height: '80px', backgroundColor:'#5ce1e6', borderRadius: '50px'}}/>
+            <span className="fs-4 test-white px-4">Coding Gyan</span>
         </div>
+        <hr className="text-white"/>
      
-      <ul style={{ listStyleType: "none", padding: 0 }}>
-        <li>
-          <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/">Home</Link>
+      <ul style={{ listStyleType: "none", padding: 0 }} className="nav nav-pills flex-column mb-auto">
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/">Home</Link>
         </li>
-        <li>
-          <Link className="text-white text-decoration-none d-flex  px-sm-4 px-0 justify-content-start" to="/accordion">Accordion</Link>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex  px-sm-4 px-0 justify-content-start" to="/accordion">Accordion</Link>
         </li>
-        <li>
-          <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/alert">Alert</Link>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/alert">Alert</Link>
         </li>
-        <li>
-          <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/badge">Badge</Link>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/badge">Badge</Link>
         </li>
-        <li>
-          <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/breadcrumb">Breadcrumb</Link>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/breadcrumb">Breadcrumb</Link>
         </li>
-        <li>
-          <Link className="text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/button">Button</Link>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/button">Button</Link>
         </li>
       </ul>
     </div>
