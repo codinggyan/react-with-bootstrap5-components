@@ -37,6 +37,51 @@ export default function SidebarComponent() {
         <li className="nav-item">
           <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/button">Button</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/card">Card</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/carousel">Carousel</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/closebutton">Close Button</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/collapse">Collapse</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/dropdown">Dropdown</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/listgroup">List Group</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/Modal">Modal</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/nav-bar">Nav Bar</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/paginations">Paginations</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/propover">Propover</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/progress">Progress</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/scrollspy">ScrollSpy</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/spinners">Spinners</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/toast">Toast</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white text-decoration-none d-flex px-sm-4 px-0 justify-content-start" to="/tooltip">Tooltip</Link>
+        </li>
       </ul>
     </div>
   );
